@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Gym Fitness</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Acerca De</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+
+    //Mapa
+    <string name="nombre_titulo">MAPA</string>
+    <string name="nombre_siguiente">Siguiente</string>
+
+
+
+    //Acerca De
+    <string name="nombre_version">Version 10</string>
+    <string name="nombre_desarrolladores">DESARROLLADORES</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_correo">Correo</string>
+
+
+
+
+    //Menu
+
+    <string name="nombre_qr">LECTURA QR</string>
+    <string name="nombre_ejercicios">EJERCICIOS</string>
+    <string name="nombre_ubicacion">GIMNASIOS</string>
+
+    //Barra Menu
+    <string name="nombre_menu">Inicio</string>
+    <string name="nombre_mEjercicios">Ejercicios</string>
+    <string name="nombre_mUbicacion">Ubicacion Gimnasios</string>
+    <string name="nombre_mAcercaDe">Acerca De</string>
+    <string name="nombre_salir">Salir</string>
+
+    //Fragment QR
+    <string name="nombre_escanear">Escanear</string>
+
+    //Fragment Ejercicios
+    <string name="nombre_espalda">Espalda</string>
+    <string name="nombre_pecho">Pectoral</string>
+    <string name="nombre_hombro">Hombro</string>
+
+    //Fragment Detalles Ejercicios
+    <string name="nombre_descripcion">Descripción</string>
+    <string name="nombre_consejo">Consejo</string>
+
+
+
+    //Ejercicios
+
+    //Nombres Espalda
+
+    <string name="nombre_espalda1">REMO EN POLEA BAJA</string>
+    <string name="nombre_espalda2">PESO MUERTO</string>
+    <string name="nombre_espalda3">REMO CON BARRA</string>
+    <string name="nombre_espalda4">REMO A UNA MANCUERNA</string>
+
+    //Informacion Espalda
+
+    <string name="info_espalda1">ESPALDA</string>
+
+
+    //Descripciones Espalda
+
+    <string name="descripcion_espalda1">Este ejercicio entrena los músculos de la espalda y especialmente la mitad de la espalda y el lattissimus.</string>
+    <string name="descripcion_espalda2">El peso muerto es uno de los ejercicios de fisicoculturismo más pesado e intenso, que estimula la producción de testosterona. Al mismo tiempo este es uno de los ejercicios más peligrosos para la espalda y las rodillas</string>
+    <string name="descripcion_espalda3">Este es un ejercicio para la espalda en el cual alineas el tronco horizontalmente y jalas la barra hacia arriba. El remo con barra es lo contrario del press de banca, y si quieres desarrollar bien la parte superior de tu cuerpo, este ejercicio debe formar parte de tu rutina de entrenamiento.</string>
+    <string name="descripcion_espalda4">Este es un ejercicio de espalda, que se enfatiza en el latísimo y solo entrena un lado a la vez. La animación de arriba te muestra como hacer la técnica con la mano izquierda.</string>
+    //Consejos Espalda
+    <string name="consejo_espalda1">Las filas de cables sentados son buenas para el volumen. Por otro lado, los tirones anchos y de agarre ancho hacen que los músculos de la espalda se ensanchen.</string>
+    <string name="consejo_espalda2">El peso muerto debe realizarse siempre primero antes de otros ejercicios. Muevete despacio y concentrate. No levantes mucho peso si tienes problemas de espalda.</string>
+    <string name="consejo_espalda3">Nunca redondees tu tronco. Los ejercicios más populares de espalda son el remo con barra, dominadas y peso muerto. Evita este ejercicio si tienes problemas de espalda.</string>
+    <string name="consejo_espalda4">Manten tus hombros quietos, No los encojas en el punto más bajo del movimiento. Estira los músculos de tu espalda entre series y ejercicios. El remo con barra es similar a este ejercicio y entrena los mismo músculos.</string>
+
+    //Nombres Pecho
+    <string name="nombre_pecho1">PRESS DE BANCA</string>
+    <string name="nombre_pecho2">PRESS INCLINADO CON BARRA</string>
+    <string name="nombre_pecho3">PRESS DE BANCA CON MANCUERNAS</string>
+    <string name="nombre_pecho4">APERTURA CON MANCUERNAS</string>
+
+    //Informacion Pecho
+    <string name="info_pecho1">PECTORALES</string>
+
+    //Descripciones Pecho
+    <string name="descripcion_pecho1">El press de banca es un ejercicio con pesas que se centra en los músculos del pecho (Pectorales). Esta instrucción es para el press banca con barra en un banco plano.</string>
+    <string name="descripcion_pecho2">Un press inclinado con barra es una variación de press de banca con barra y entrena la parte superior de los pectorales. Cuanto más se ajuste la inclinación de la espalda, entrenaras más tus hombros y la parte superior de los músculos del pecho.</string>
+    <string name="descripcion_pecho3">El press de banca con mancuernas es un ejercicio de peso libre que entrena los músculos del pecho (pectorales) es parecido al press de banca con barra.</string>
+    <string name="descripcion_pecho4">Todo lo que necesitas es un banco plano y 2 mancuernas. Este ejercicio entrena los músculos del pecho y normalmente se hace después del press de banca.</string>
+
+    //Consejos Pecho
+    <string name="consejo_pecho1">Inicia el entrenamiento de pecho con press de banca. Estira entre las series. Mariposas o aperturas con mancuernas en banco plano, normalmente se hacen después del press de banca.</string>
+    <string name="consejo_pecho2">Muevete lentamente y concentrado. Un compañero de entrenamiento puede ayudarte a levantar la barra hacia arriba cuando no puedas, pero es mejor si intentas hacer lo solo.</string>
+    <string name="consejo_pecho3">Te recomiendo que realices 3 series de 8 a 12 repeticiones. Estira tus hombros y los músculos del pecho entre series y ejercicios. Inhala por la nariz y exhala por la boca.</string>
+    <string name="consejo_pecho4">Haz 10 y 15 repeticiones. Las aperturas con mancuernas no se hace con mucho peso y bajas repeticiones (Repeticiones bajas = pocas repeticiones). Realiza aperturas con mancuernas en banco plano después del press de banca en banco plano y aperturas inclinadas después del press de banca inclinada.</string>
+
+    //Nombre Hombro
+    <string name="nombre_hombro1">PRESS MILITAR SENTADO</string>
+    <string name="nombre_hombro2">PRESS MILITAR PARADO</string>
+    <string name="nombre_hombro3">ELEVACION FRONTAL CON MANCUERNA</string>
+    <string name="nombre_hombro4">ELEVACIONES FRONTALES CON DISCO</string>
+
+    //Informacion Hombro
+    <string name="info_hombro1">HOMBRO</string>
+
+    //Descripcion Hombro
+    <string name="descripcion_hombro1"> El press militar sentado es uno de los ejercicios más pesados para los músculos de los hombros y debe realizarse al principio del entrenamiento. Este ejercicio es esencial para fortalecer los hombros.</string>
+    <string name="descripcion_hombro2">El press militar es uno de los ejercicios más pesados para los músculos de los hombros y debes hacerlo al principio de tu entrenamiento. Este ejercicios es esencial para fortalecer los músculos de los hombros.</string>
+    <string name="descripcion_hombro3">La elevación frontal con mancuernas, es un ejercicio para los músculos de los hombros, donde alternas los levantamientos con cada mano.</string>
+    <string name="descripcion_hombro4">Este es un ejercicio para los músculos de los hombros que entrena la parte frontal de tus deltoides. </string>
+
+    //Consejos Hombro
+    <string name="consejo_hombro1">Calienta los músculos de tus hombros, antes de realizar press militar. No comiences con mucho peso. Recomendación para superseries: Press Militar con Barra + Elevaciones Laterales con Mancuernas.</string>
+    <string name="consejo_hombro2">Calienta lo suficiente. (No comiencés con mucho peso). Muevete lentamente y concentrado.</string>
+    <string name="consejo_hombro3">Existen dos variaciones para este ejercicio: Una, donde esperamos a que ambas mancuernas se encuentren al nivel de la cadera y luego levantamos la otra mancuerna. Y la variación 2, donde se levanta una mancuerna y se baja la otra al mismo tiempo (en ninguno de los dos, los músculos de los hombros deben descansar).
+Párate enfrente a un espejo.</string>
+    <string name="consejo_hombro4">Si no usas un disco pesado, puedes hacer las elevaciones para los hombros, extendiendo completamente los brazos. No importa si te paras con la pierna izquierda delante de la pierna derecha o al revez. Si tienes problemas de caderas, te recomiendo que te pares con las piernas paralelas.</string>
+
+
+</resources>

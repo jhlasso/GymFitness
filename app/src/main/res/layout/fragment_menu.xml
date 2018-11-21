@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background">
+
+        <ImageButton
+            android:id="@+id/btnQr"
+            android:layout_width="71dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="275dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qr"
+            app:layout_constraintEnd_toStartOf="@+id/btnEjercicios"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/fondo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnEjercicios"
+            android:layout_width="71dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ejercicios"
+            app:layout_constraintEnd_toStartOf="@+id/btnMapa"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnQr"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageButton
+            android:id="@+id/btnMapa"
+            android:layout_width="71dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="275dp"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mapa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnEjercicios"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/nombre_qr"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQr" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/nombre_ejercicios"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/btnEjercicios" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="78dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/nombre_ubicacion"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/btnMapa" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
