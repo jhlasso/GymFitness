@@ -15,6 +15,7 @@ import android.view.MenuItem;
 
 
 import jhlasso.gymfitness.Clases.EjercicioVo;
+import jhlasso.gymfitness.Fragments.AcercaDeFragment;
 import jhlasso.gymfitness.Fragments.EjerciciosFragment;
 import jhlasso.gymfitness.Fragments.GimnasiosFragment;
 import jhlasso.gymfitness.Fragments.MenuFragment;
@@ -82,7 +83,7 @@ public class MainActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             FragmentManager fragmentManager = getSupportFragmentManager();
-//            fragmentManager.beginTransaction().replace(R.id.contenedor,new AcercaDeFragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.contenedor,new AcercaDeFragment()).commit();
         }
 
         return super.onOptionsItemSelected(item);
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             fragmentManager.beginTransaction().replace(R.id.contenedor,new GimnasiosFragment()).commit();
         } else if (id == R.id.nav_slideshow) {
-//            fragmentManager.beginTransaction().replace(R.id.contenedor,new AcercaDeFragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.contenedor,new AcercaDeFragment()).commit();
         } else if (id == R.id.nav_manage) {
             System.exit(0);
         } else if (id == R.id.nav_share) {
